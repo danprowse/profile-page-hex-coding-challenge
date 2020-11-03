@@ -5,7 +5,7 @@ Everything you need to get setup is within this repository. If you'd prefer not 
 
 ### Setup
 1. `git clone https://github.com/hextransforma-healthcare/welcome-to-hex-js.git`
-1. `cd welcome-to-hex`
+1. `cd welcome-to-hex-js`
 1. `yarn install`
 1. `yarn start`
 
