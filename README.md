@@ -15,8 +15,9 @@ In order to get to know you we'd like you to create yourself a profile page.
 No profile page is complete without the following:
 - Your profile picture (can be of anything)
 - Your name
-- Your job title
-- Your favourite food
+- What industry/area have you worked the longest
+- Highlight a specific project or accomplishment you are proud of from your past experiences
+- What makes you stand out for this role and what do you hope to achieve
 
 ## What we'd like to see being used 🕵️‍♂️
 - The API
