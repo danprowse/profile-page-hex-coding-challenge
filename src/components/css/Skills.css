@@ -21,17 +21,8 @@
   font-family: "Montserrat", sans-serif;
   color: #f79e1f;
 }
-.skillbar {
-  height: 15px;
-  width: 90%;
-  background: linear-gradient(to right, 
-  red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);;
-  border-radius: 10px;
-  margin: 0.5rem;
-}
 .skills {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   color: #f5f5f2;
 }
 .skills .skill {
@@ -40,10 +31,17 @@
   align-items: center;
   margin: 0.5rem;
 }
-.skill .skill-key {
-  margin-right: 0.5rem;
-  height: 15px;
-  width: 15px;
-  background-color: #9b9d97;
-  border-radius: 50%;
+.skill-list {
+  list-style: none;
+  color: #f5f5f2;
+  margin: 0.5rem;
+}
+.skill-list li::before {
+  content: "\2022";
+  color: #f79e1f;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em;
 }

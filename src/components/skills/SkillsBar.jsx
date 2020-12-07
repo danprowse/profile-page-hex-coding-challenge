@@ -1,9 +1,24 @@
 import React from "react";
 
-export default function SkillsBar() {
+export default function SkillsBar({ skills }) {
+  const listItems = skills.map((skillbar) => (
+    <section className="skillbar-container" key={skillbar.title}>
+      <p className="skillbar-title">{skillbar.title}</p>
+      <div className="skills">
+        {skillbar.skills.map((skill) => (
+          <div key={skill.name} className="skill">
+            <ul className="skill-list">
+              <li >{skill.name}</li>
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  ));
   return (
     <>
-      <section className="skillbar-container">
+      {listItems}
+      {/* <section className="skillbar-container">
         <p className="skillbar-title">Industry</p>
         <div className="skillbar"></div>
         <div className="skills">
@@ -42,7 +57,7 @@ export default function SkillsBar() {
             <div className="skill-name">Java</div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

@@ -32,7 +32,7 @@ export default function Userinfo() {
         <p className="name">Daniel Prowse</p>
         <p className="title">Junior Frontend Developer</p>
         <div className="api-active-container">
-          <p>API status:</p> {apiActive ? <i className="far fa-check-circle icon icon-tick"></i> : <i class="far fa-times-circle icon icon-cross"></i>}
+          <p>API status:</p> {apiActive ? <i className="far fa-check-circle icon icon-tick"></i> : <i className="far fa-times-circle icon icon-cross"></i>}
         </div>
       </div>
     </section>
