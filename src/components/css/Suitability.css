@@ -8,7 +8,7 @@
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  color: #f5f5f2;
+  background-color: #f5f5f2;
 }
 .title-intro,
 .list-container {
@@ -22,30 +22,48 @@
 }
 .title {
   color: #f79e1f;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
 }
-.suitability-list {
-  list-style: none;
-  color: #f5f5f2;
-  /* margin: 0.5rem; */
-}
-.suitability-list li::before {
-  content: "\2022";
-  color: #f79e1f;
-  font-weight: bold;
-  font-size: 1rem;
-  display: inline-block;
-  width: 1em; 
-  margin-left: -1em;
-}
 .suitability-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   font-size: 1.25rem;
   text-align: center;
-  margin: 1rem;
+  margin: 1rem auto;
+  background-color: #27252e;
+  color: #f5f5f2;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  max-width: 600px;
+  min-height: 200px;
+  padding: 1rem;
+}
+.suitability-list li h4 {
+  margin-bottom: 1rem;
+  font-weight: 500;
 }
 .suitability-list li p {
   font-size: 1rem;
   margin: 0.25rem;
+  font-family: "Raleway", sans-serif;
+}
+@media screen and (max-width: 600px) {
+  .suitability-container {
+    margin: 0;
+    padding: 0;
+  }
+  .suitability-list {
+    padding: 0;
+  }
+  .suitability-list ul {
+    margin: 0;
+  }
+  .suitability-list li {
+    width: 100%;
+  }
 }

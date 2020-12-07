@@ -36,6 +36,7 @@ ul {
   color: #27252e;
   padding: 1rem;
   margin-left: 1rem;
+  text-align: center;
 }
 ul li::before {
   content: "\2022";
@@ -78,4 +79,18 @@ ul li::before {
   width: 40%;
   box-shadow: none;
   margin: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .highlight {
+    flex-direction: column-reverse;
+  }
+  .images {
+    width: 475px;
+  }
+}
+@media screen and (max-width: 600px) {
+ .images
+  {
+    display: none;
+  }
 }
