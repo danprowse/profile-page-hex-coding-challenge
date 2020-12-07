@@ -8,7 +8,10 @@ export default function SkillsBar({ skills }) {
         {skillbar.skills.map((skill) => (
           <div key={skill.name} className="skill">
             <ul className="skill-list">
-              <li >{skill.name}</li>
+              <li>
+                {skill.name}
+                <p>Years: {skill.years}</p>
+              </li>
             </ul>
           </div>
         ))}

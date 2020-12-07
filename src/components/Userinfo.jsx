@@ -34,6 +34,11 @@ export default function Userinfo() {
         <div className="api-active-container">
           <p>API status:</p> {apiActive ? <i className="far fa-check-circle icon icon-tick"></i> : <i className="far fa-times-circle icon icon-cross"></i>}
         </div>
+        <div className="expectations">
+          As Junior Developer working for HexTransforma Health, I would want to achieve many things on both a personal and
+          professional level. Working within a team of senior developers would give me the oppurtuinity to enhance my existing skillset and grow as a developer with the chance to be able to contribute towards 
+          the wider team. Not only does this role offer me oppurtuinities to advance, but it's also within a sector that can allow me to positvley impact people's health through web technology.
+        </div>
       </div>
     </section>
   )
