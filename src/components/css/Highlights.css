@@ -1,3 +1,81 @@
 .highlights-container {
   flex: 1;
+  margin: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.highlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+.highlight .description,
+.highlight .images {
+  flex: 1;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+}
+.description .title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #f79e1f;
+  text-align: center;
+}
+.description p {
+  font-size: 1.1rem;
+  margin: 0.5rem;
+}
+ul {
+  list-style: none;
+  color: #27252e;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+ul li::before {
+  content: "\2022";
+  color: #27252e;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em;
+}
+.images {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  position: relative;
+}
+.images .img {
+  width: 275px;
+  height: 225px;
+  border-radius: 5px;
+  position: absolute;
+  box-shadow: 0 0 5px;
+}
+.images .charity-50.img {
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+.images .charity-abseil.img {
+  top: 10px;
+  left: 10px;
+}
+.h-2 {
+  flex-direction: row-reverse;
+}
+.h-2 .images .mobile-map-img,
+.h-2 .images .mobile-incidents-img
+{
+  height: 350px;
+  width: 40%;
+  box-shadow: none;
+  margin: 1rem;
 }

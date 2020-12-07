@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  color: #27252e;
 }
 .profile-pic-container,
 .user-details {
@@ -10,14 +11,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0.5rem;
 }
 .profile-pic-container {
   flex: 1;
 }
 .profile-pic {
-  max-height: 300px;
-  width: 300px;
+  max-height: 325px;
+  width: 325px;
   border-radius: 50%;
+  box-shadow: 0 10px 10px -5px;
 }
 .user-details {
   flex: 1;
@@ -27,8 +30,29 @@
 }
 .user-details .name {
   font-size: 2rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 .user-details .title {
   font-size: 1.25rem;
+  font-family: "Raleway", sans-serif;
+  color: #27252e;
 }
- 
+.api-active-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.icon {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+.icon-tick {
+  color: green;
+}
+.icon-cross {
+  color: red;
+}
+
