@@ -21,12 +21,12 @@
 }
 .suitability-list li {
   background-color: #27252e;
-  width: 40%;
+  width: 45%;
   margin: 0.5rem;
   color: #f5f5f2;
   padding: 0.5rem;
   border-radius: 5px;
-  min-height: 200px;
+  min-height: auto;
 }
 .suitability-list li h4 {
   color: #f79e1f;
