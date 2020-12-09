@@ -5,7 +5,7 @@ export default function Suitability() {
   return (
     <section className="suitability-container">
       <div className="title-intro">
-        <h3 className="title">Job Suitability:</h3>
+        <h3 className="title">Job Suitability</h3>
         <h3 className="title">Junior Frontend Developer</h3>
       </div>
       <div className="list-container">

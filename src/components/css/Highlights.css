@@ -24,21 +24,22 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
-  color: #f79e1f;
+  color: #27252e;
   text-align: center;
 }
 .description p {
   font-size: 1.1rem;
   margin: 0.5rem;
 }
-ul {
-  list-style: none;
+.app-requirement-list {
   color: #27252e;
   padding: 1rem;
-  margin-left: 1rem;
-  text-align: center;
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
 }
-ul li::before {
+/* .app-requirement-list li::before {
   content: "\2022";
   color: #27252e;
   font-weight: bold;
@@ -46,7 +47,7 @@ ul li::before {
   display: inline-block;
   width: 1em; 
   margin-left: -1em;
-}
+} */
 .images {
   display: flex;
   width: 100%;
