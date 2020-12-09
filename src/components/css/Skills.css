@@ -24,11 +24,14 @@
   display: flex;
   flex-wrap: wrap;
   color: #f5f5f2;
+  justify-content: center;
+  align-items: center;
 }
 .skills .skill {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
 }
 .skill-list {
   list-style: none;
